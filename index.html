@@ -8,58 +8,54 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <a href="index.html"
-          ><img src="imgs/nav_icons/home_icon.png" alt="Home icon"
-        /></a>
-        <a href="about.html"
-          ><img src="imgs/nav_icons/about_icon.png" alt="About icon"
-        /></a>
-        <a href="work.html"
-          ><img src="imgs/nav_icons/work_icon.png" alt="Work icon"
-        /></a>
-        <a href="resume.html"
-          ><img src="imgs/nav_icons/resume_icon.png" alt="Resume icon"
-        /></a>
-        <a href="contact.html"
-          ><img src="imgs/nav_icons/contact_icon.png" alt="Contact icon"
-        /></a>
-      </ul>
-    </nav>
+    <div class="main_container">
+      <nav>
+        <ul>
+          <a href="index.html">
+            <img src="imgs/nav_icons/home_icon.png" alt="Home icon" />
+          </a>
+          <a href="about.html">
+            <img src="imgs/nav_icons/about_icon.png" alt="About icon" />
+          </a>
+          <a href="work.html">
+            <img src="imgs/nav_icons/work_icon.png" alt="Work icon" />
+          </a>
+          <a href="resume.html">
+            <img src="imgs/nav_icons/resume_icon.png" alt="Resume icon" />
+          </a>
+          <a href="contact.html">
+            <img src="imgs/nav_icons/contact_icon.png" alt="Contact icon" />
+          </a>
+        </ul>
+      </nav>
 
-    <main>
-      <article class="personal_section_container">
-        <div class="author_image"></div>
-
-        <div class="personal_section">
+      <div class="personal_section">
+        <div class="author_title">
+          <div class="hyphen"></div>
           <h1>
-            <div class="hyphen"></div>
-            <div class="personal_section_header">
-              <span>
-                <strong class="personal_section_header01">
-                  I'M NATHANAEL EHIMZE
-                </strong>
-              </span>
-              <br />
-              <span class="personal_section_header02">
-                <strong>WEB DEVELOPER.</strong></span
-              >
-            </div>
+            <span> I'M NATHANAEL EHIMZE </span> <br />
+            WEB DEVELOPER
           </h1>
-          <p>
-            I'm a web designer & fullstack web developer focused on crafting
-            clean & user‑friendly experiences, I am passionate about building
-            excellent software that improves the lives of those around me.
-          </p>
-
-          <button class="personal_section_button">
-            <span class="personal_section_button_text">MORE ABOUT ME</span>
-            <div class="innerButton"></div>
-          </button>
         </div>
-      </article>
-    </main>
+
+        <p>
+          I'm a Nigerian based web developer focused on crafting clean &
+          user‑friendly experiences. I am passionate about building excellent
+          software that improves the lives of those around me.
+        </p>
+
+        <button>
+          <div class="button_content">MORE ABOUT ME</div>
+          <span class="button_arrow"></span>
+        </button>
+      </div>
+
+      <img
+        src="imgs/personal_img_01.png"
+        alt="author's_image"
+        class="author_image"
+      />
+    </div>
 
     <footer>Nathanael Ehimze © 2023</footer>
   </body>

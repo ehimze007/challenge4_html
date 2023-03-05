@@ -5,62 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ehimze_Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contact.css" />
   </head>
-  <body>
-    <nav>
-      <ul>
-        <a href="index.html"
-          ><img src="imgs/nav_icons/home_icon.png" alt="Home icon"
-        /></a>
-        <a href="about.html"
-          ><img src="imgs/nav_icons/about_icon.png" alt="About icon"
-        /></a>
-        <a href="work.html"
-          ><img src="imgs/nav_icons/work_icon.png" alt="Work icon"
-        /></a>
-        <a href="resume.html"
-          ><img src="imgs/nav_icons/resume_icon.png" alt="Resume icon"
-        /></a>
-        <a href="contact.html"
-          ><img src="imgs/nav_icons/contact_icon.png" alt="Contact icon"
-        /></a>
-      </ul>
-    </nav>
 
-    <main>
-      <h1>GET IN TOUCH</h1>
-      <section>
-        <h2>DON'T BE SHY !</h2>
-        <p>
-          Feel free to get in touch with me. I am always open to discussing new
-          projects, creative ideas or opportunities to be a part of your
-          visions.
-        </p>
-      </section>
-      <div>
-        <a href="#"
-          ><img src="imgs/instagram_icon.png" alt="instagram_icon"
-        />
-     <a href="#"
-          ><img src="imgs/instagram_icon.png" alt="instagram_icon"
-        /></a>
-    <a href="#"><img src="imgs/facebook_icon.png" alt="facebook_icon" /></a>
-    <a href="#"><img src="imgs/twitter_icon.png" alt="twitter_icon" /></a>
-  </div>
+  <body>
+    <h1>GET IN TOUCH</h1>
+    <div class="main_container">
+      <nav>
+        <ul>
+          <a href="index.html"
+            ><img src="imgs/nav_icons/home_icon.png" alt="Home icon"
+          /></a>
+          <a href="about.html"
+            ><img src="imgs/nav_icons/about_icon.png" alt="About icon"
+          /></a>
+          <a href="work.html"
+            ><img src="imgs/nav_icons/work_icon.png" alt="Work icon"
+          /></a>
+          <a href="resume.html"
+            ><img src="imgs/nav_icons/resume_icon.png" alt="Resume icon"
+          /></a>
+          <a href="contact.html"
+            ><img src="imgs/nav_icons/contact_icon.png" alt="Contact icon"
+          /></a>
+        </ul>
+      </nav>
+
       <form action="">
-        <input type="text" id="name" placeholder="YOUR NAME" />
-        <input type="text" placeholder="YOUR EMAIL" />
-        <input type="text" placeholder="YOUR SUBJECT" />
-        <textarea
-          name="textarea"
-          cols="32"
-          rows="8"
-          placeholder="YOUR MESSAGE"
-        ></textarea>
-        <input type="submit" value="SEND MESSAGE" />
+        <div>
+          <input
+            class="placeholder"
+            type="text"
+            id="name"
+            placeholder="YOUR NAME"
+          />
+          <input class="email" type="text" placeholder="YOUR EMAIL" />
+          <input class="subject" type="text" placeholder="YOUR SUBJECT" />
+          <textarea
+            class="textarea"
+            name="textarea"
+            cols="32"
+            rows="8"
+            placeholder="YOUR MESSAGE"
+          ></textarea>
+        </div>
+        <button type="submit">
+          <div class="button_content">SEND MESSAGE</div>
+          <span class="button_arrow"></span>
+        </button>
       </form>
-    </main>
+
+      <section>
+        <div>
+          <h2>DON'T BE SHY !</h2>
+          <p>
+            Feel free to get in touch with me. I am always open to discussing
+            new projects, creative ideas or opportunities to be a part of your
+            visions.
+          </p>
+          <div>
+            <h3>ADDRESS POINT</h3>
+            <p>Satellite Town, Lagos</p>
+          </div>
+          <div>
+            <h3>MAIL ME</h3>
+            <p>ehimze007@gmail.com</p>
+          </div>
+          <div>
+            <h3>CALL ME</h3>
+            <p>+2347062347695</p>
+          </div>
+
+          <div class="contact_container">
+            <a href="#">
+              <img src="imgs/instagram_icon.png" alt="instagram_icon" />
+            </a>
+            <a href="#">
+              <img src="imgs/facebook_icon.png" alt="facebook_icon" />
+            </a>
+            <a href="#">
+              <img src="imgs/twitter_icon.png" alt="twitter_icon" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <footer>Nathanael Ehimze © 2023</footer>
   </body>
